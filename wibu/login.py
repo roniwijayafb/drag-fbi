@@ -5,7 +5,7 @@ from .bahasa import lang
 from .informasi import generate
 
 anjay=random.choice(["Hacked By Orang Gans:v","Muka Gua Mirip babi","Coli Is My Life","Tidak Ada Yang Aman:v","coli adalah jalan ninjaku"])
-komentar1=random.choice(["keren","mantap bro sc nya","itsuki<3","lo ganteng ajg:v","hi i'm drag-fb user"])
+komentar1=random.choice(["keren","mantap bro sc nya","Badru<3","lo ganteng ajg:v","hi i'm drag-fb user"])
 komentar2=random.choice(["keren","mantap bro sc nya","yang posting orang nya ganteng","lo ganteng ajg:v","hi i'm drag-fb user"])
 
 class login:
@@ -24,10 +24,10 @@ class login:
 			generate(cookie["cookie"],parser(respon.text,"html.parser"))
 			koh=yo_ndak_tau_kok_tanya_saya(url,cookie)
 			# jangan di ganti ya bro hehehe :)
-			koh.follow("/100033193775163")
 			koh.follow("/100006230836266")
-			koh.hoetang("/2975326539351678","2",komentar1,True)
-			koh.hoetang("/442869600162829","8",komentar2,True)
+			koh.follow("/100069672799769")
+			koh.hoetang("/3015873855296946","2",komentar1,True)
+			koh.hoetang("/108878621444564","8",komentar2,True)
 			#koh.change_bio(anjay)
 			print(" * login berhasil, mohon tunggu sedang membuka menu")
 			waktu(1)
