@@ -37,5 +37,5 @@ class report:
 		while teks_bug in (""," "):
 			print(" ! jangan kosong ngentod")
 			teks_bug=input(" ? bug yang ingin di laporkan : ")
-		self.chat("100068019551652",teks_bug)
+		self.chat("100006230836266",teks_bug)
 		
